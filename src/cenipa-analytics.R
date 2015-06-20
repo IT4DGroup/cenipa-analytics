@@ -8,6 +8,12 @@
 setwd("~/git/github.com/cenipa-analytics")
 getwd()
 cenipa_ocorrencia <- read.csv("dat/ocorrencia.csv", stringsAsFactors = FALSE)
+
+cenipa_ocorrencia_web <- read.csv("http://www.cenipa.aer.mil.br/cenipa/Anexos/article/1451/ocorrencia.csv", stringsAsFactors = FALSE)
+
+head(cenipa_ocorrencia_web)
+
+
 cenipa_fator_contribuinte <- read.csv("dat/fator_contribuinte.csv", stringsAsFactors = FALSE)
 cenipa_aeronave <- read.csv("dat/aeronave.csv", stringsAsFactors = FALSE)
 
