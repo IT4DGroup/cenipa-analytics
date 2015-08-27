@@ -4,6 +4,10 @@
 # http://www.cenipa.aer.mil.br/cenipa/Anexos/article/1451/fator_contribuinte.csv
 # http://www.cenipa.aer.mil.br/cenipa/Anexos/article/1451/aeronave.csv
 
+# Aerodromo
+# http://www.voegol.com.br/pt-br/a-gol/memoria-gol/curiosidades/Paginas/Siglas-de-aeroportos.aspx
+# https://pt.wikipedia.org/wiki/C%C3%B3digos_ICAO_Aeroportos_Brasileiros
+
 
 setwd("~/git/github.com/cenipa-analytics")
 getwd()
